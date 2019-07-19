@@ -34,6 +34,8 @@ dependencies {
     compileOnly 'pub.devrel:easypermissions:1.1.0'
     compileOnly 'com.android.support:appcompat-v7:28.0.0'
 
-    annotationProcessor project(':processor')
+//    annotationProcessor project(':processor')
+//    api project(':annotations')
     api 'com.github.jiangandroid.BaseWebview:annotations:1.0.4'
+    annotationProcessor 'com.github.jiangandroid.BaseWebview:processor:1.0.6'
 }
