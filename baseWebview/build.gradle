@@ -36,6 +36,9 @@ dependencies {
 
 //    annotationProcessor project(':processor')
 //    api project(':annotations')
-    api 'com.github.jiangandroid.BaseWebview:annotations:1.0.4'
-    annotationProcessor 'com.github.jiangandroid.BaseWebview:processor:1.0.6'
+//    api 'com.github.jiangandroid.BaseWebview:annotations:1.0.4'
+//    annotationProcessor 'com.github.jiangandroid.BaseWebview:processor:1.0.6'
+
+    annotationProcessor project(':processor')
+    api project(':annotations')
 }
