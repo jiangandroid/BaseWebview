@@ -9,20 +9,6 @@ buildscript {
             google()
             mavenCentral()
             jcenter()
-            maven {
-                url "http://maven.hipac.cn/nexus/content/repositories/releases/"
-                credentials {
-                    username "$mavenUser"
-                    password "$mavenPassword"
-                }
-            }
-            maven {
-                url "http://maven.hipac.cn/nexus/content/repositories/com.hipac.android"
-                credentials {
-                    username "$mavenUser"
-                    password "$mavenPassword"
-                }
-            }
         }
     }
     dependencies {
